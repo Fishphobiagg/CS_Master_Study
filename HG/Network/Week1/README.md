@@ -2,7 +2,7 @@
 
 ## Routing 라우팅
 
-> - 어떤 네트워크 안에서 통신 데이터를 보낼 때 최적의 경로를 선택하는 과정
+> 어떤 네트워크 안에서 통신 데이터를 보낼 때 최적의 경로를 선택하는 과정
 
 - 최적의 경로는 주어진 데이터를 가장 짧은 거리로 또는 가장 적은 시간 안에 전송할 수 있는 경로
 
@@ -28,12 +28,16 @@
 
 > 작은 블록의 패킷으로 데이터를 전송하며 데이터를 전송하는 동안만 네트워크 자원을 사용하도록 하는 방법
 
-![](https://velog.velcdn.com/images/eoveol/post/a109bddb-ccfd-4866-b3b4-4db89bf8bfbb/image.gif)
+![Packet_Switching.gif](README_assets/e67288dcd8c5c96f70bea06df9a83df7fc003f00.gif)
+
+
 
 - 정보 전달의 단위인 패킷
 
 - 패킷 교환망은 Store-and-Forward 방식을 사용하기 때문에 데이터가 들어오는 속도와 나가는 속도를 맞출 필요 없이 각 스테이션에 맞도록 속도를 조절
   -> 전송 지연이 줄어들고 통신 안정성이 늘어남
+  
+  
   
   > **Store-and-Forward 방식**
   > ![](https://velog.velcdn.com/images/eoveol/post/a94b6288-502e-41fe-8470-c83c5e391ef1/image.png)
@@ -52,7 +56,7 @@
 
 ## WAN (Wide Area Network)
 
-![](https://velog.velcdn.com/images/eoveol/post/ff35a098-fe80-467d-b114-e219ce8a290f/image.png)
+<img title="" src="https://velog.velcdn.com/images/eoveol/post/ff35a098-fe80-467d-b114-e219ce8a290f/image.png" alt="" width="324">
 
 > 먼 거리에 있는 컴퓨터 그룹을 연결하는 대규모 컴퓨터 네트워크
 
@@ -88,19 +92,23 @@
 > 컴퓨터 간 데이터 통신을 원활히 하기 위해 규정한 약속, 신호 송신의 순서(handshaking)나 데이터 표현법, 오류 검출법 등을 정한 것
 
 > HTTP 프로토콜
-> <br>
+> 
 > 하이퍼텍스트를 전송하는 규약
-
-- 하이퍼텍스트 : 한 문서에서 다른 문서로 즉시 접근할 수 있는 텍스트
-- 비연결성 프로토콜, REQUEST에 대한 RESPONSE만 전달되고 연결 유지 X
+> 
+> - 하이퍼텍스트 : 한 문서에서 다른 문서로 즉시 접근할 수 있는 텍스트
+> 
+> - 비연결성 프로토콜, REQUEST에 대한 RESPONSE만 전달되고 연결 유지 X
 
 > HTTPS 프로토콜
-> <br>
+> 
+> 
 > HTTP + SSL, HTTP로 통신하는 소켓을 SSL(Secure Socket Layer) or TLS(Transport Layer Security)라는 프로토콜로 대체한 것 (새로운 별개의 프로토콜이 아니라 연결 방식이 달라진 것)
-
-- HTTP는 TCP와 직접 통신하지만, HTTPS에서는 SSL과 통신하고 SSL이 TCP와 통신하는 방식
-- SSL을 사용하기 때문에 암호화와 증명서, 안전성 보호를 이용할 수 있음
-- 공통키 암호화 방식과 공개키 암호화 방식을 혼합한 하이브리드 암호 시스템 사용, 공통키를 공개 키 암호화 방식으로 교환하고 이후 통신은 공통키 암호를 사용하는 방식
+> 
+> - HTTP는 TCP와 직접 통신하지만, HTTPS에서는 SSL과 통신하고 SSL이 TCP와 통신하는 방식
+> 
+> - SSL을 사용하기 때문에 암호화와 증명서, 안전성 보호를 이용할 수 있음
+> 
+> - 공통키 암호화 방식과 공개키 암호화 방식을 혼합한 하이브리드 암호 시스템 사용, 공통키를 공개 키 암호화 방식으로 교환하고 이후 통신은 공통키 암호를 사용하는 방식
 
 ## OSI 7 Layer
 
@@ -149,6 +157,3 @@
     
     - 케이블, 리피터, 허브를 통해 데이터 전송
     - 데이터가 무엇인지, 어떤 에러가 있는지 등에는 전혀 신경 쓰지 않는다. 단지 데이터 전기적인 신호로 변환해서 주고받는 기능만 할 뿐
-
-A / P / S / T / N / D / P
-아페쎄 티 내다 팜
