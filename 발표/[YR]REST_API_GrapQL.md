@@ -90,6 +90,7 @@ Server API 를 통해 정보를 주고받기 위해 사용하는 Query Language�
   ![](https://velog.velcdn.com/images/2bytes/post/431befd9-0fb9-49c4-aef1-3aad6b1f1118/image.png)<p>State of JavaScript 2022</p>
 
 <br> 
+
 * 왜 사용하는가?
   * GraphQL의 아이디어는 **그래프로 생각하기**에서부터 출발
     * 그래프라는 자료구조는 인간의 뇌 구조 및 언어적인 설명과 비슷하기 때문에 실제 현실 세계의 많은 현상들을 모델링할 수 있는 강력한 도구
@@ -162,6 +163,7 @@ GraphQL에서는 GraphQL Schema가 Resource를 나타내고 **Query, Mutation �
 GraphQL에서는 **한 번의 요청**에서 여러 Resource에 접근할 수 있다
 - REST API에서 각 요청은 해당 엔드포인트에 정의된 핸들링 **함수를 호출하여 작업을 처리**하지만, GraphQL에서는 요청 받은 각 필드에 대한 **resolver를 호출하여 작업을 처리**한다
 <br>
+
   ![](https://velog.velcdn.com/images/2bytes/post/36e4ec92-1c73-47c4-9461-8def4b2f719b/image.png)
 * GraphQL의 장점
   * **하나의 endpoint 요청**
@@ -184,6 +186,7 @@ GraphQL에서는 **한 번의 요청**에서 여러 Resource에 접근할 수 �
     각 메소드에 따른 캐싱을 지원받을 수 없다. 이를 보안하기 위해 Apollo 엔진의 캐싱과 영속 쿼리 등이 등장
   * 고정된 요청과 응답만 필요할 경우에는 Query 로 인해 요청의 크기가 RESTful API 의 경우보다 더 커진다
 
+<br>
 출처)
 https://hevodata.com/learn/rest-vs-restful-apis/#4
 https://urclass.codestates.com/
