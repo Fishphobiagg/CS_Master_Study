@@ -38,6 +38,7 @@
 
 **삽입**
 ![](https://velog.velcdn.com/images/eoveol/post/5c23449b-42fa-4c29-b43c-fd407cc669d0/image.png)
+
 **삭제**
 ![](https://velog.velcdn.com/images/eoveol/post/4683223a-e316-4d5d-a217-48c6688ed890/image.png)
 
