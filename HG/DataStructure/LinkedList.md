@@ -27,10 +27,10 @@
 
 **삽입**
 ![](https://velog.velcdn.com/images/eoveol/post/915a575b-d466-4e20-9781-3609ae244526/image.png)
-
 - 사이즈가 고정되어 있기 떄문에 사이즈를 늘려주는 연산이 있음 
-  **삭제**
-  ![](https://velog.velcdn.com/images/eoveol/post/e2b96cd9-2316-413b-a5d6-8823f77fa631/image.png)
+
+**삭제**
+![](https://velog.velcdn.com/images/eoveol/post/e2b96cd9-2316-413b-a5d6-8823f77fa631/image.png)
 - 순차적인 인덱스 구조로 인해서 삭제된 빈 인덱스를 채워야하기 때문에 채워주는 연산이 추가 되어있음 
 - 지속적으로 삭제되면 그 공간 만큼 낭비되는 메모리가 많아짐 
 
